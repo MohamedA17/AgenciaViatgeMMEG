@@ -1,0 +1,207 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: arial; 
+    text-decoration: none;
+}
+body {
+    /* background: radial-gradient(90deg,#7a7a7a7a ,white); aqui hacemos el degradado de color */
+    background-image: url(https://wallpapercave.com/wp/wp3309977.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+header{
+    width:100%;
+    height: 90px;
+    background:linear-gradient(60deg,#7a7a7a7a, white); /*aqui hacemos el degradado de color*/
+}
+#logo{
+    margin-top: 10px;
+    margin-left: 50px;
+    width: 200px;
+    height: 150px;
+    float: left;
+    
+}
+#logo img{
+    width: 105%;
+    
+}
+
+.menu{
+    width: auto;
+    float: right;
+    margin-left: 0.8%;
+    margin-top:35px;/*aqui separamos los espacios entre arriba y abajo del menu, lo centramos.*/  
+}
+ 
+.menu ul{
+    display: flex;  /* aqui convertimos la lista vertical del menu, en un plano horizontal.*/
+}
+.menu li{
+    list-style: none; /* aqui quitamos los puntos que habian sobre las opciones del menu.*/ 
+}
+.menu li a{
+    /*font:oblique bold 120% cursive;*/
+    text-decoration:none;
+    color:#1A5F7B;
+    font-size: 22px;
+    margin-left: -6%;
+    
+    padding:42px; /*aqui ajustamos el tamaño del menu*/
+} 
+.menu li a:hover{
+    color: black; /*aqui seleccionamos el color que se va a resaltar sobre las opciones del menú cuando pasemos el cursor*/
+}
+#check{
+    display:none;
+}
+.icon-menu{
+    display:none;
+}
+#check:checked ~ .menu{height: 610px;
+}
+
+@media screen and (max-width:900px){
+    .icon-menu{
+        display:block;
+        color:white;
+        float: right;
+        padding: 3px;
+        font-size: 35px;
+        border-radius: 10px;
+        margin-top: 15px;
+        margin-right: 10px;
+    }
+    .icon-menu:hover{
+        background: #0E3147; /*aqui seleccionamos el color que se va a resaltar sobre el icono menú cuando pasemos el cursor*/
+        cursor: pointer;
+    }
+    .menu{
+        float: left;
+        margin-top: 10% ;
+        margin-left: 0%;
+        width:100%;
+        background:#0E3147; /*aqui seleccionamos el color en el que apareceran las opciones del desplegable*/
+        height:0px; 
+        overflow: hidden;
+        transition: all 300ms;
+        
+    }
+    .menu ul{
+        flex-direction: column;
+    }
+    .menu li a{
+        display: block;
+    }
+     #logo{
+         display: none;
+     }
+}
+
+
+
+
+
+
+
+
+
+
+
+.container-all{
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+    margin-top: 70px;
+}
+.container-form{
+    width: 50%;
+    padding: 40px;
+    background:white; /*aqui hacemos el degradado de color*/;
+    margin-top: -5.3%;
+    margin-left: 25%;
+    border-radius: 10px;
+}
+
+.title{
+    text-align: center; 
+    margin-top: 5px;
+    font-weight: 300;
+    color: #7a7a7a;
+}
+label{
+    display: block; /*aqui separamos nuestras casillas de usuario y contraseña, deja de aparecer horizontal y se muestra en vertical en forma de bloque*/
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: 300;
+    color: #7a7a7a;
+}
+input[type="email"],
+input[type="number"],
+input[type="date"],
+input[type="text"],
+input[type="password"]{
+width: 100%;
+height: 30px;
+background: rgba(0, 0, 0, 0); /*aqui volvemos transparentes las casillas de nuestro formulario*/
+border: 0px;/*aqui quitamos el borde de las casillas*/
+outline: 0px;/*aqui le quitamos las lineas que aparecen sobre nuestras casillas cuando les damos clic*/
+border-bottom:1px solid rgba(0, 0, 0, 0.12) ;/*aqui resaltamos solo la linea donde vamos a escribir nuestro usuario o contraseña*/
+font-size: 16px;
+}
+input[type="submit"]{
+width: 100%;
+height: 50px;   
+margin-top: 60px;
+color:#0E3147 ;
+background:linear-gradient(90deg,#7a7a7a7a,white);
+font-weight: 300;
+cursor: pointer;
+font-size: 18px;
+border-radius: 10px;
+}
+input[type="submit"]:hover{
+    background:linear-gradient(90deg,white,#7a7a7a7a);
+}
+
+.text-footer{
+display: block;
+margin-top: 50px;
+text-align: center;
+color: #7a7a7a;
+font-weight: 500;
+}
+.text-footer a{
+    color: #C71C81;
+    font-weight: 500;
+}
+   
+/*mensaje de error*/
+.message-error{
+    margin-top: 3px;
+    color: red;
+    display: block;
+}
+
+
+    
+/*aqui es la parte del responsive*/
+
+@media screen and (max-width:600px){
+    .container-text{
+        display:none;
+    }
+    .container-form{
+        margin: auto;
+        width: 100%;
+        background: white;
+    }
+  
+    }
+    
+

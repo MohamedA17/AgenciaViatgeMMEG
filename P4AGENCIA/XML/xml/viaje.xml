@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE viaje SYSTEM "viaje.dtd">
+<viaje>
+
+<producto isbn="I01">
+ <nombre>Roma</nombre>
+ <id>1002967599</id>
+ <precio>800€</precio>
+ <lugar>Roma</lugar>
+ <fecha>02/05/2021</fecha>
+ <imagen>Roma.jpg</imagen>
+</producto>
+
+<producto isbn="I02">
+ <nombre>ibiza</nombre>
+ <id>1002967598</id>
+ <precio>600€</precio>
+ <lugar>Ibiza</lugar>
+ <fecha>02/05/2022</fecha>
+ <imagen>Ibiza.jpg</imagen>
+</producto>
+
+<producto isbn="I03">
+ <nombre>Hawaii</nombre>
+ <id>1002967597</id>
+ <precio>1200€</precio>
+ <lugar>Hawaii</lugar>
+ <fecha>02/05/2023</fecha>
+ <imagen>Hawaii.jpg</imagen>
+ </producto>
+ 
+ <producto isbn="I04">
+ <nombre>Londres</nombre>
+ <id>1002967596</id>
+ <precio>500€</precio>
+ <lugar>Londres</lugar>
+ <fecha>02/05/2024</fecha>
+ <imagen>Londres.jpg</imagen>
+ </producto>
+ 
+ <producto isbn="I05">
+ <nombre>Paris</nombre>
+ <id>1002967595</id>
+ <precio>850€</precio>
+ <lugar>Paris</lugar>
+ <fecha>02/05/2025</fecha>
+ <imagen>Paris.jpg</imagen>
+ </producto>
+ 
+ <producto isbn="I06">
+ <nombre>Miami</nombre>
+ <id>1002967594</id>
+ <precio>850€</precio>
+ <lugar>Paris</lugar>
+ <fecha>02/05/2026</fecha>
+ <imagen>Miami.jpg</imagen>
+</producto>
+
+
+</viaje>

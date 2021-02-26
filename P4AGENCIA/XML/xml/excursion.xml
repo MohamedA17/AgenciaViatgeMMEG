@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE excursion SYSTEM "excursion.dtd">
+<excursion>
+
+<producto isbn="I01">
+ <nombre>excursion Roma</nombre>
+ <id>10029675991</id>
+ <precio>20€</precio>
+ <lugar>Roma</lugar>
+ <fecha>2022</fecha>
+ <imagen>excursionlRoma.jpg</imagen>
+</producto>
+
+<producto isbn="I02">
+ <nombre>excursion ibiza</nombre>
+ <id>10029675982</id>
+ <precio>30€</precio>
+ <lugar>Ibiza</lugar>
+ <fecha>2023</fecha>
+ <imagen>excursionbiza.jpg</imagen>
+</producto>
+
+<producto isbn="I03">
+ <nombre>excursion Hawaii</nombre>
+ <id>10029675973</id>
+ <precio>12€</precio>
+ <lugar>Hawaii</lugar>
+ <fecha>2026</fecha>
+ <imagen>excursionHawaii.jpg</imagen>
+ </producto>
+ 
+ <producto isbn="I04">
+ <nombre>excursion Londres</nombre>
+ <id>10029675964</id>
+ <precio>25€</precio>
+ <lugar>Londres</lugar>
+ <fecha>2024</fecha>
+ <imagen>excursionLondres.jpg</imagen>
+ </producto>
+ 
+ <producto isbn="I05">
+ <nombre>excursionl Paris</nombre>
+ <id>10029675958</id>
+ <precio>30€</precio>
+ <lugar>Paris</lugar>
+ <fecha>2025</fecha>
+ <imagen>excursionParis.jpg</imagen>
+ </producto>
+ 
+ <producto isbn="I06">
+ <nombre>excursion Miami</nombre>
+ <id>1002967594</id>
+ <precio>40€</precio>
+ <lugar>Paris</lugar>
+ <fecha>2027</fecha>
+ <imagen>excursionMiami.jpg</imagen>
+</producto>
+
+
+</excursion>
