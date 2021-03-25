@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE restaurante SYSTEM "restaurante.dtd">
+<restaurante>
+
+<producto isbn="I01">
+ <nombre>resturante Roma</nombre>
+ <id>10029675991</id>
+ <precio>20</precio>
+ <lugar>Roma</lugar>
+ <fecha>2022</fecha>
+ <imagen>restauranteRoma.jpg</imagen>
+</producto>
+
+<producto isbn="I02">
+ <nombre>restaurante ibiza</nombre>
+ <id>10029675982</id>
+ <precio>30</precio>
+ <lugar>Ibiza</lugar>
+ <fecha>2023</fecha>
+ <imagen>restauranteIbiza.jpg</imagen>
+</producto>
+
+<producto isbn="I03">
+ <nombre>restaurante Hawaii</nombre>
+ <id>10029675973</id>
+ <precio>12</precio>
+ <lugar>Hawaii</lugar>
+ <fecha>2026</fecha>
+ <imagen>restauranteHawaii.jpg</imagen>
+ </producto>
+ 
+ <producto isbn="I04">
+ <nombre>restaurante Londres</nombre>
+ <id>10029675964</id>
+ <precio>25</precio>
+ <lugar>Londres</lugar>
+ <fecha>2024</fecha>
+ <imagen>restauranteLondres.jpg</imagen>
+ </producto>
+ 
+ <producto isbn="I05">
+ <nombre>hotel Paris</nombre>
+ <id>10029675958</id>
+ <precio>30</precio>
+ <lugar>Paris</lugar>
+ <fecha>2025</fecha>
+ <imagen>restauranteParis.jpg</imagen>
+ </producto>
+ 
+ <producto isbn="I06">
+ <nombre>restaurante Miami</nombre>
+ <id>1002967594</id>
+ <precio>40</precio>
+ <lugar>Paris</lugar>
+ <fecha>2027</fecha>
+ <imagen>restauranteMiami.jpg</imagen>
+</producto>
+
+
+</restaurante>
