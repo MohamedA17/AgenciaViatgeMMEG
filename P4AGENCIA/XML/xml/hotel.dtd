@@ -1,9 +1,0 @@
-<!ELEMENT hotel (producto+)>
-<!ELEMENT producto (nombre, id, precio, lugar, fecha, imagen)>
-<!ELEMENT nombre (#PCDATA)>
-<!ELEMENT id (#PCDATA)>
-<!ELEMENT precio (#PCDATA)>
-<!ELEMENT lugar (#PCDATA)>
-<!ELEMENT fecha (#PCDATA)>
-<!ELEMENT imagen (#PCDATA)>
-<!ATTLIST producto isbn ID #REQUIRED>
